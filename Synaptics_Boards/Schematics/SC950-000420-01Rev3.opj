@@ -1,0 +1,206 @@
+(ExpressProject "SC950-000420-01Rev1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\sc950-000420-01rev3.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "SC950-000420-01REV3.NET")
+    (OTHER_Netlist_File2 "SC950-000420-01REV1.CMP")
+    (OTHER_View_Output "TRUE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "PowerNET.exe")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "U:\PROJECTS\20150601_TOURMALET_SBC_KIT\ELECTRICAL\SCHEMATICS\SC950-000420-01REV3.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{DigiKey}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tDecal\tDigiKey")
+    (BOM_Include_File
+       "U:\PROJECTS\20150601_TOURMALET_SBC_KIT\ELECTRICAL\SCHEMATICS\SC950-000420-01REV1.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "U:\PROJECTS\20150601_TOURMALET_SBC_KIT\ELECTRICAL\SCHEMATICS\SC950-000420-01REV2.DRC")
+    (FLDSTUFF_Scope "0")
+    (FLDSTUFF_Action "0")
+    (FLDSTUFF_Report_File
+       "U:\Projects\20150601_Tourmalet_SBC_Kit\Electrical\Schematics\sc950-000420-01rev3.RPT")
+    (FLDSTUFF_Update_File
+       "U:\Projects\20150601_Tourmalet_SBC_Kit\Electrical\Schematics\PARTNPUPDATE.upd")
+    (FLDSTUFF__Uppercase_Result_Property "TRUE")
+    (FLDSTUFF_Uppercase_Update_Property "FALSE")
+    (FLDSTUFF_Uppercase_Unconditionally "TRUE")
+    (FLDSTUFF_Visibility "0")
+    (FLDSTUFF_inst_or_occurrence "0")
+    (FLDSTUFF_Create_Report_File "TRUE"))
+  (Folder "Outputs"
+    (File ".\sc950-000420-01rev1.bom"
+      (Type "Report"))
+    (File ".\sc950-000420-01rev2.drc"
+      (Type "Report"))
+    (File ".\sc950-000420-01rev2.asc"
+      (Type "Report"))
+    (File ".\sc950-000420-01rev3.bom"
+      (Type "Report"))
+    (File ".\sc950-000420-01rev3.rpt"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (AL3050
+      (FullPartName "AL3050.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (TPS61150
+      (FullPartName "TPS61150.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (TPS61130RSA
+      (FullPartName "TPS61130RSA.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (ST8R00
+      (FullPartName "ST8R00.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (MIC5255
+      (FullPartName "MIC5255.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (TPS78833
+      (FullPartName "TPS78833.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (BD83854MUV
+      (FullPartName "BD83854MUV.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (MICROPHONE
+      (FullPartName "MICROPHONE.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_10.5I\TOOLS\CAPTURE\LIBRARY\ELECTROMECHANICAL.OLB")
+      (DeviceIndex "0"))
+    ("SW DPDT"
+      (FullPartName "SW DPDT.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5I\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5I\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON4A
+      (FullPartName "CON4A.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5I\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (2N7002
+      (FullPartName "2N7002.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5I\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\ORCAD\ORCAD_10.5I\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\ORCAD\ORCAD_10.5I\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (AAT3620
+      (FullPartName "AAT3620.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (BMX055
+      (FullPartName "BMX055.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (KSS103
+      (FullPartName "KSS103.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (PAM2401_DFN
+      (FullPartName "PAM2401_DFN.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (TPS61162A
+      (FullPartName "TPS61162A.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (TPA6205A1Dxx
+      (FullPartName "TPA6205A1Dxx.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (STOD02
+      (FullPartName "STOD02.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (LM3551
+      (FullPartName "LM3551.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0"))
+    (JUMPER
+      (FullPartName "JUMPER.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5I\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (SJ-435107RS
+      (FullPartName "SJ-435107RS.Normal")
+      (LibraryName "U:\INDIVIDUAL\BJORN\LIBRARIES\BJORN.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "U:\Projects\20150601_Tourmalet_SBC_Kit\Electrical\Schematics\sc950-000420-01rev3.dsn")
+      (Path "Design Resources"
+         "U:\Projects\20150601_Tourmalet_SBC_Kit\Electrical\Schematics\sc950-000420-01rev3.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "U:\Projects\20150601_Tourmalet_SBC_Kit\Electrical\Schematics\sc950-000420-01rev3.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 295 0 603"))
+      (Tab 0)))
+  (MPSSessionName "bhovden"))

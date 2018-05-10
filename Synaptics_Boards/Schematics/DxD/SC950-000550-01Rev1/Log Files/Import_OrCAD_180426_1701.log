@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+Symbol and Schematic Translator for DxDesigner 
+Release: PADS 9.5
+GBS Install Id: 27413
+Copyright 2012 Mentor Graphics Corporation. All Rights Reserved. Mentor Graphics Corporation
+Translation start: 4/26/2018 5:01:50 PM
+Input file: U:\Projects\20150601_Tourmalet_SBC_Kit\Electrical\Schematics\SC950-000550-01REV1.DSN
+File type: (2,1) OrCAD Capture design file version 9
+[D] Wall clock time: Read() = 00:00
+[D] Wall clock time: ConvertIntoInnerDB() = 00:00
+Output path: U:\Projects\20150601_Tourmalet_SBC_Kit\Electrical\Schematics\DxD\SC950-000550-01Rev1
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-1'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-2'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-3'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-4'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-5'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-6'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-7'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-8'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-9'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-10'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-11'
+[W] Renamed duplicated pin: 'LED_A' of symbol 'CON40A_19' was renamed to 'LED_A-1'
+[W] Renamed duplicated pin: 'LED_A' of symbol 'CON40A_19' was renamed to 'LED_A-2'
+[W] Renamed duplicated pin: 'LED_C' of symbol 'CON40A_19' was renamed to 'LED_C-1'
+[W] Renamed duplicated pin: 'LED_C' of symbol 'CON40A_19' was renamed to 'LED_C-2'
+[W] Renamed duplicated pin: 'GND15' of symbol 'CON40A_0' was renamed to 'GND15-1'
+[W] Renamed duplicated pin: 'GND15' of symbol 'CON40A_0' was renamed to 'GND15-2'
+[D] Wall clock time: ConvertFromInnerDB() = 00:01
+[D] Wall clock time: yggdb2vd() = 00:04
+[D] Wall clock time: PerformIntegrityCheck() = 00:03
+[D] Wall clock time: Write() = 00:08
+[O] Created 6 symbol(s) and 1 schematic sheet(s)
+0 error(s) and 17 warning(s) found
+Finished on 4/26/2018 at 5:01:59 PM.
+--------------------------------------------------------------------------------
+Total: 17 warning(s), 0 error(s)

@@ -1,0 +1,91 @@
+--------------------------------------------------------------------------------
+Symbol and Schematic Translator for DxDesigner 
+Release: PADS 9.5
+GBS Install Id: 27413
+Copyright 2012 Mentor Graphics Corporation. All Rights Reserved. Mentor Graphics Corporation
+Translation start: 4/26/2018 5:00:25 PM
+Input file: U:\Projects\20150601_Tourmalet_SBC_Kit\Electrical\Schematics\SC950-000420-01REV3.DSN
+File type: (2,1) OrCAD Capture design file version 9
+[D] Wall clock time: Read() = 00:00
+[D] Wall clock time: ConvertIntoInnerDB() = 00:00
+Output path: U:\Projects\20150601_Tourmalet_SBC_Kit\Electrical\Schematics\DxD\SC950-000420-01Rev3
+[W] Renamed duplicated pin: 'AGND' of symbol 'BD83854MUV' was renamed to 'AGND-1'
+[W] Renamed duplicated pin: 'AGND' of symbol 'BD83854MUV' was renamed to 'AGND-2'
+[W] Renamed duplicated pin: 'AGND' of symbol 'BD83854MUV' was renamed to 'AGND-3'
+[W] Renamed duplicated pin: 'GND' of symbol 'AL3050' was renamed to 'GND-1'
+[W] Renamed duplicated pin: 'GND' of symbol 'AL3050' was renamed to 'GND-2'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_7' was renamed to 'GND-1'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_7' was renamed to 'GND-2'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_7' was renamed to 'GND-3'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_7' was renamed to 'GND-4'
+[W] Renamed duplicated pin: 'SYS_DCIN' of symbol 'CON40A_7' was renamed to 'SYS_DCIN-1'
+[W] Renamed duplicated pin: 'SYS_DCIN' of symbol 'CON40A_7' was renamed to 'SYS_DCIN-2'
+[W] Renamed duplicated pin: 'LX' of symbol 'PAM2401_DFN' was renamed to 'LX-1'
+[W] Renamed duplicated pin: 'LX' of symbol 'PAM2401_DFN' was renamed to 'LX-2'
+[W] Renamed duplicated pin: 'PGND' of symbol 'PAM2401_DFN' was renamed to 'PGND-1'
+[W] Renamed duplicated pin: 'PGND' of symbol 'PAM2401_DFN' was renamed to 'PGND-2'
+[W] Renamed duplicated pin: 'VOUT' of symbol 'PAM2401_DFN' was renamed to 'VOUT-1'
+[W] Renamed duplicated pin: 'VOUT' of symbol 'PAM2401_DFN' was renamed to 'VOUT-2'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-1'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-2'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-3'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-4'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-5'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-6'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-7'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-8'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-9'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-10'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-11'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-12'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-13'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-14'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-15'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-16'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON60_1' was renamed to 'GND-17'
+[W] Renamed duplicated pin: 'SHLD' of symbol 'SJ_435107RS_1' was renamed to 'SHLD-1'
+[W] Renamed duplicated pin: 'SHLD' of symbol 'SJ_435107RS_1' was renamed to 'SHLD-2'
+[W] Renamed duplicated pin: 'PGND' of symbol 'AAT3620' was renamed to 'PGND-1'
+[W] Renamed duplicated pin: 'PGND' of symbol 'AAT3620' was renamed to 'PGND-2'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-1'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-2'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-3'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-4'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-5'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-6'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-7'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-8'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-9'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-10'
+[W] Renamed duplicated pin: 'GND' of symbol 'CON40A_19' was renamed to 'GND-11'
+[W] Renamed duplicated pin: 'LED_A' of symbol 'CON40A_19' was renamed to 'LED_A-1'
+[W] Renamed duplicated pin: 'LED_A' of symbol 'CON40A_19' was renamed to 'LED_A-2'
+[W] Renamed duplicated pin: 'LED_C' of symbol 'CON40A_19' was renamed to 'LED_C-1'
+[W] Renamed duplicated pin: 'LED_C' of symbol 'CON40A_19' was renamed to 'LED_C-2'
+[E] Invalid reference designator: PWM on sheet 01 Interface
+[E] Invalid reference designator: RST on sheet 01 Interface
+[E] Invalid reference designator: GPIO-K on sheet 01 Interface
+[E] Invalid reference designator: I2C1_SDA on sheet 01 Interface
+[E] Invalid reference designator: VSYS on sheet 01 Interface
+[E] Invalid reference designator: LED_A on sheet 01 Interface
+[E] Invalid reference designator: GND on sheet 01 Interface
+[E] Invalid reference designator: GPIO-I on sheet 01 Interface
+[E] Invalid reference designator: PWR on sheet 01 Interface
+[E] Invalid reference designator: RESX on sheet 01 Interface
+[E] Invalid reference designator: VBAT on sheet 01 Interface
+[E] Invalid reference designator: B- on sheet 01 Interface
+[E] Invalid reference designator: B+ on sheet 01 Interface
+[E] Invalid reference designator: VOLUP on sheet 01 Interface
+[E] Invalid reference designator: LED_C on sheet 01 Interface
+[E] Invalid reference designator: GPIO-G on sheet 01 Interface
+[E] Invalid reference designator: VOLDN on sheet 01 Interface
+[E] Invalid reference designator: I2C1_SCL on sheet 01 Interface
+[D] Wall clock time: ConvertFromInnerDB() = 00:03
+[D] Wall clock time: yggdb2vd() = 00:05
+[D] Wall clock time: PerformIntegrityCheck() = 00:04
+[D] Wall clock time: Write() = 00:10
+[O] Created 37 symbol(s) and 2 schematic sheet(s)
+18 error(s) and 53 warning(s) found
+Finished on 4/26/2018 at 5:00:38 PM.
+--------------------------------------------------------------------------------
+Total: 53 warning(s), 18 error(s)
