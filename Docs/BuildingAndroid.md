@@ -8,7 +8,7 @@ last update: May 10, 2018
 
 Contact [Synaptics](mailto:tourmalet@synaptics.com)
 
-[Pre-built images](../Software/fastboot-images.zip) are available if you do not want to build you want to install Android right away rather than building it from source code.  Please refer to the [Installing Android](InstallingAndroid.md) document for installation instructions.
+[Pre-built images](../releases/v1.0.0/fastboot-images.zip) are available if you do not want to build you want to install Android right away rather than building it from source code.  Please refer to the [Installing Android](InstallingAndroid.md) document for installation instructions.
 
 ## Preparing Your Build System ##
 
