@@ -36,7 +36,7 @@ sudo udevadm control --reload-rules
 	5. Check to make sure your device is recognized with the `fastboot devices -l` command.
 	6. For additional help, you can also refer to the [96boards fastboot help page](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/linux-fastboot.md.html), especially steps 1 and 2.
 
-- Extract [fastboot-images.zip](../Software/fastboot-images.zip) (`unzip fastboot-images.zip`).  
+- Extract [fastboot-images.zip](../releases/download/v1.0.0/fastboot-images.zip) (`unzip fastboot-images.zip`).  
 
 - On Windows, run `flash-all.bat`; on other platforms, `./flash-all.sh`.
 
