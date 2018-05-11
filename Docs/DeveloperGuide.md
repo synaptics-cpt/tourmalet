@@ -8,7 +8,7 @@ last update, May 10, 2018
 
 Contact [Synaptics](mailto:tourmalet@synaptics.com)
 
-Writing Android apps to use Tourmalet hardware features such as GPIOs, UART, and buses requires some understanding of three layers: (#electrical) connections & pinout, (#sysfs) interface for Linux hardware access, and using (#libsuperuser) to get a privileged command shell from Android.
+Writing Android apps to use Tourmalet hardware features such as GPIOs, UART, and buses requires some understanding of three layers: [Electical](#electrical) connections & pinout, [sysfs](#sysfs) interface for Linux hardware access, and using [libsuperuser](#libsuperuser) to get a privileged command shell from Android.
 
 ## Electrical ##
 
