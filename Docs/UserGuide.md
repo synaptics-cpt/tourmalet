@@ -74,26 +74,29 @@ The two USB A ports can be used to connect devices such as mouse and keyboard.
 
 The Tourmalet device utilizes a relatively common and plentiful 18650 Li-ion battery.  This battery typically has between 3100 to 3400 mAhr capacity.  The *approximate* state of the battery is shown by the LED furthest from the USB charging port:
 
-|Color				| Status						|
-|-------------------|-------------------------------|
-|Green				| Full charge					|
-|Orange				| Not full charge				|
-|Red				| Better think about charging	|
+|Color              | Status                       |
+|-------------------|------------------------------|
+|Green              | Full charge                  |
+|Orange             | Not full charge              |
+|Red                | Better think about charging  |
 
 Look, this is a hobbyist project.  Just be happy that we put an LED to give you a rough idea of the state of the battery.  In previous projects that the team worked on, such an LED was not designed in.  You can imagine the stress level during customer demos when we would have no idea how much longer the demo would last before the battery died...
 
 To give you a better idea of battery life, here are some preliminary power consumption measurements:
 
 ### Battery Life ###
-|Device State			|Current draw (mA)	|Operating Time (Hours, based on 3400 mAhr battery	|
-|-----------------------|-------------------|-------------------------------------------|
-|"Sleep" (i.e. after pushing power/sleep button)	|60	|57 |
-|Sleep + backlight forced on (see [Misc](#backlight-switch)) | 330 | 10 |
-|Normal "idle" state (home screen), no WiFi, no BT | 380 | 9 |
-|Normal, with BT, no WiFi	| 400 | 9 |
-|Normal, with WiFi, no BT 	| 410 | 8	|
-|Continuous Streaming Video on YouTube, WiFi, BT on, display always |	670 | 5	|
-|Downloading app, WiFi, BT on	| 800 |	4	|
+
+| Device State                                                       | Current draw (mA)  | Operating Time* (Hours) |
+|--------------------------------------------------------------------|-------------------:|------------------------:|
+| "Sleep" (i.e. after pushing power/sleep button)                    |         60         |              57         |
+| Sleep + backlight forced on (see [Misc](#backlight-switch))        |        330         |              10         |
+| Normal "idle" state (home screen), no WiFi, no BT                  |        380         |               9         |
+| Normal, with BT, no WiFi                                           |        400         |               9         |
+| Normal, with WiFi, no BT                                           |        410         |               8         |
+| Continuous Streaming Video on YouTube, WiFi, BT on, display always |        670         |               5         |
+| Downloading app, WiFi, BT on                                       |        800         |               4         |
+
+\* Operating Time based on 3400 mAh battery
 
 Basically, you can expect about 4 hours of continuous use from a fresh battery.  The default power management in Android shuts off the display after about a minute, so battery life may be much longer when the display is not always on.
 
@@ -105,13 +108,13 @@ Since we were unable to get the Dragonboard on-board charger to work, we added o
 
 The LED next to this USB port indicates the state of the charger:
 
-|Color			|	Status																	|
-|---------------|---------------------------------------------------------------------------|
-|Orange			| Precharge (conditioning if the battery voltage is less than 2.6V +/- 0.2V |
-|Red 			| Charging																	|
-|Green			| Charging done																|
-|Flashing orange| Fault (no battery detected)												|
-|Flashing green	| Fault (Precharge timeout)													|
+|Color            | Status                                                                    |
+|-----------------|---------------------------------------------------------------------------|
+|Orange           | Precharge (conditioning if the battery voltage is less than 2.6V +/- 0.2V |
+|Red              | Charging                                                                  |
+|Green            | Charging done                                                             |
+|Flashing orange  | Fault (no battery detected)                                               |
+|Flashing green   | Fault (Precharge timeout)                                                 |
 
 ## Misc ##
 

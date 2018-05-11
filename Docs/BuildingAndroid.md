@@ -14,7 +14,7 @@ Contact [Synaptics](mailto:tourmalet@synaptics.com)
 
 In order to successfully build an Android image, make sure your host system meets or exceeds the following minimum requirements:  At least 250GB of free disk space and at least 16GB of RAM/swap. 
 
-The setup and build processes have been verified with [Ubuntu 14.04 LTS x86_64 desktop](http://old-releases.ubuntu.com/releases/trusty/) and [Ubuntu 12.04 LTS x86_64 desktop](http://old-releases.ubuntu.com/releases/precise/), [installation instructions](http://www.ubuntu.com/download/desktop); other versions of Ubuntu or other GNU/Linux distributions should work, but some the package installation steps may differ.
+The setup and build processes have been verified with [Ubuntu 14.04 LTS x86_64 desktop](http://old-releases.ubuntu.com/releases/trusty/) and [Ubuntu 12.04 LTS x86_64 desktop](http://old-releases.ubuntu.com/releases/precise/) ([installation instructions](http://www.ubuntu.com/download/desktop)); other versions of Ubuntu or other GNU/Linux distributions should work, but some the package installation steps may differ.
 
 The build is performed entirely on a terminal emulator. On Ubuntu, once logged in, click the Ubuntu logo in the upper-left corner (a tooltip "Dash Home" will show when the mouse is over this logo) and type "terminal". Select XTerm or your preferred terminal program.
 
@@ -55,7 +55,7 @@ export PATH="$PATH:~/bin"
 repo --help
 ```
 
-Download the [Qualcomm DragonBoard 410c Android board support package](https://developer.qualcomm.com/download/db410c/android_board_support_package_vla.br_.1.2.4-01810-8x16.0-3.zip) and the [Synaptics Tourmalet Android source patches](../Software/android_board_support_package_vla.br_.1.2.4-01810-8x16.0-3-synaptics-tourmalet-td4322-1.zip)
+Download the [Qualcomm DragonBoard 410c Android board support package](https://developer.qualcomm.com/download/db410c/android_board_support_package_vla.br_.1.2.4-01810-8x16.0-3.zip) and the [Synaptics Tourmalet Android source patches](../Software/linux_android_board_support_package_vla.br_.1.2.4-01810-8x16.0-3-synaptics-tourmalet-td4322-1.zip)
 
 Create a Tourmalet project directory
 
@@ -68,7 +68,7 @@ Unpack these two zip files into the Tourmalet project directory
 
 ```{r, engine=sh}
 unzip Downloads/linux_android_board_support_package_vla.br_.1.2.4-01810-8x16.0-3.zip
-unzip Downloads/linux_android_board_support_package_vla.br_.1.2.4-01810-8x16.0-3-synaptics-td4291.zip
+unzip Downloads/linux_android_board_support_package_vla.br_.1.2.4-01810-8x16.0-3-synaptics-tourmalet-td4322-1.zip
 ```
 
 Build Android for Tourmalet

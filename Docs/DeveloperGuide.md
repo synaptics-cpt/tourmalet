@@ -8,36 +8,37 @@ last update, May 10, 2018
 
 Contact [Synaptics](mailto:tourmalet@synaptics.com)
 
-Writing Android apps to use Tourmalet hardware features such as GPIOs, UART, and buses requires some understanding of three layers: [Electrical](#Electrical) connections & pinout, [sysfs](#sysfs) interface for Linux hardware access, and using [libsuperuser](#libsuperuser) to get a privileged command shell from Android.
+Writing Android apps to use Tourmalet hardware features such as GPIOs, UART, and buses requires some understanding of three layers: (#electrical) connections & pinout, (#sysfs) interface for Linux hardware access, and using (#libsuperuser) to get a privileged command shell from Android.
 
 ## Electrical ##
 
 The DragonBoard 410c provides access to many I/O lines on the 40 pin low speed header. Some of these are used by the DragonBoard or Tourmalet expansion board and should generally not be used for further expansion, as this may cause hardware contention issues and unexpected behavior.
 
-| Pin number | Signal name  | GPIO number |      comment     | | Pin number | Signal name  | GPIO number |      comment     |
-|-----------:|:------------:|------------:|:-----------------|-|-----------:|:------------:|------------:|:-----------------|
-|          1 | GND          |             | logic level low  | |          2 | GND          |             |                  |
-|          3 | UART0_CTS    |         904 |                  | |          4 | Power button |             |                  |
-|          5 | UART0_TX     |         902 |                  | |          6 | Reset button |             |                  |
-|          7 | UART0_RX     |         903 |                  | |          8 | SPI0_CLK     |         921 | accelerometer    |
-|          9 | UART0_RTS    |         905 |                  | |         10 | SPI0_MISO    |         919 | accelerometer    |
-|         11 | UART1_TX     |         906 |                  | |         12 | SPI0_CS_N    |         920 | accelerometer    |
-|         13 | UART1_RX     |         907 |                  | |         14 | SPI0_MOSI    |         918 | accelerometer    |
-|         15 | I2C0_SCL     |         909 | touch at 0x20    | |         16 | Reserved     |             |                  |
-|         17 | I2C0_SDA     |         908 | touch at 0x20    | |         18 | Reserved     |             |                  |
-|         19 | I2C1_SCL     |         925 | sensors          | |         20 | Reserved     |             |                  |
-|         21 | I2C1_SDA     |         924 | sensors          | |         22 | Reserved     |             |                  |
-|         23 | GPIO_36      |         938 | 5V enable        | |         24 | GPIO_12      |         914 |                  |
-|         25 | GPIO_13      |         915 | touch ATTN       | |         26 | GPIO_69      |         971 |                  |
-|         27 | GPIO_115     |        1017 | gyro ATTN        | |         28 | Reserved     |             | compass ATTN     |
-|         29 | GPIO_24      |         926 | input only       | |         30 | GPIO_25      |         927 |                  |
-|         31 | GPIO_35      |         937 |                  | |         32 | GPIO_34      |         936 | volume up        |
-|         33 | GPIO_28      |         930 |                  | |         34 | GPIO_33      |         935 | volume down      |
-|         35 | 1.8V PWR     |             | logic level high | |         36 | SYS DC IN    |             |                  |
-|         37 | 5.0V PWR     |             |                  | |         38 | SYS DC IN    |             |                  |
-|         39 | GND          |             | logic level low  | |         40 | GND          |             |                  |
+| Pin number | Signal name  | GPIO number |      comment     |   | Pin number | Signal name  | GPIO number |      comment     |
+| ---------: | :----------: | ----------: | :--------------- | - | ---------: | :----------: | ----------: | :--------------- |
+|          1 | GND          |             | logic level low  |   |          2 | GND          |             |                  |
+|          3 | UART0_CTS    |         904 |                  |   |          4 | Power button |             |                  |
+|          5 | UART0_TX     |         902 |                  |   |          6 | Reset button |             |                  |
+|          7 | UART0_RX     |         903 |                  |   |          8 | SPI0_CLK     |         921 | accelerometer    |
+|          9 | UART0_RTS    |         905 |                  |   |         10 | SPI0_MISO    |         919 | accelerometer    |
+|         11 | UART1_TX     |         906 |                  |   |         12 | SPI0_CS_N    |         920 | accelerometer    |
+|         13 | UART1_RX     |         907 |                  |   |         14 | SPI0_MOSI    |         918 | accelerometer    |
+|         15 | I2C0_SCL     |         909 | touch at 0x20    |   |         16 | Reserved     |             |                  |
+|         17 | I2C0_SDA     |         908 | touch at 0x20    |   |         18 | Reserved     |             |                  |
+|         19 | I2C1_SCL     |         925 | sensors          |   |         20 | Reserved     |             |                  |
+|         21 | I2C1_SDA     |         924 | sensors          |   |         22 | Reserved     |             |                  |
+|         23 | GPIO_36      |         938 | 5V enable        |   |         24 | GPIO_12      |         914 |                  |
+|         25 | GPIO_13      |         915 | touch ATTN       |   |         26 | GPIO_69      |         971 |                  |
+|         27 | GPIO_115     |        1017 | gyro ATTN        |   |         28 | Reserved     |             | compass ATTN     |
+|         29 | GPIO_24      |         926 | input only       |   |         30 | GPIO_25      |         927 |                  |
+|         31 | GPIO_35      |         937 |                  |   |         32 | GPIO_34      |         936 | volume up        |
+|         33 | GPIO_28      |         930 |                  |   |         34 | GPIO_33      |         935 | volume down      |
+|         35 | 1.8V PWR     |             | logic level high |   |         36 | SYS DC IN    |             |                  |
+|         37 | 5.0V PWR     |             |                  |   |         38 | SYS DC IN    |             |                  |
+|         39 | GND          |             | logic level low  |   |         40 | GND          |             |                  |
 
 ### Notes: ###
+
 - Any GND signal (pin 1, 2, 39, or 40) can be used as a reference for logic level low ("false" or '0"); 1.8V can be used as a reference for logic level high ("true" or "1").
 - Any input connected to a GPIO (e.g. switches, buttons, etc.) will require a pull-up resistor.  We recommend a 4.7k&Omega; resistor.
 - I2C0 (pins 15 & 17) has Synaptics Touch at address 0x20, Gyroscope and accelerometer at 0x68, ambient light and proximity sensor at 0x39, and compass at 0x0c; any other address should be available for use.

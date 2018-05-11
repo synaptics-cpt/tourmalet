@@ -8,14 +8,14 @@ last update: May 10, 2018
 
 Contact [Synaptics](mailto:tourmalet@synaptics.com)
 
-- Install Android SDK from http://developer.android.com/sdk/ or fastboot as below (Linux only; just Google for the Windows version of fastboot):
+- Install Android SDK from https://developer.android.com/studio/ or just the Platform Tools (smaller download/installation) from https://developer.android.com/studio/releases/platform-tools or, on Ubuntu Linux, fastboot as below:
 ```{r, engine=sh}
 sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update
 sudo apt-get install android-tools-fastboot
 ```
 
-- Install udev rules so that adb and fastboot will work without root permissions (applies to Linux only):
+- If you are using Ubuntu Linux, Install udev rules so that adb and fastboot will work without root permissions (or remember to use su or sudo to run adb and fastboot):
 
 ```{r, engine=sh}
 git clone https://github.com/snowdream/51-android
